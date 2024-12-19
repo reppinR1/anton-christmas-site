@@ -1,131 +1,80 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rodzaje Choinek</title>
+    <title>Види Ялинок</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: 'Quicksand', sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f0f7f4;
-        color: #2c3e50;
-      }
-
-      h1 {
-        text-align: center;
-        color: #2c7873;
-        font-size: clamp(2rem, 5vw, 4rem);
-        padding: 2rem;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-      }
-
-      .tree-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-      }
-
-      .tree-card {
-        background: white;
-        border-radius: 15px;
-        padding: 20px;
-        margin-bottom: 30px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      }
-
-      .tree-image {
-        width: 100%;
-        max-width: 500px;
-        height: auto;
-        border-radius: 10px;
-        display: block;
-        margin: 20px auto;
-      }
-
-      .tree-steps {
-        padding-left: 20px;
-        color: #34495e;
-      }
-
-      footer {
-        background-color: #2c7873;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-      }
-
-      @media (max-width: 768px) {
-        .tree-card {
-          margin: 10px;
-          padding: 15px;
-        }
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="alternate icon" type="image/png" href="favicon.png" />
   </head>
   <body>
-    <h1>Rodzaje Choinek Świątecznych</h1>
+    <h1>Види Різдвяних Ялинок</h1>
 
     <div class="tree-container">
       <div class="tree-card">
-        <h2>Świerk Pospolity</h2>
+        <h2>Ялина Звичайна</h2>
         <img
           src="https://images.unsplash.com/photo-1512389142860-9c449e58a543"
-          alt="Świerk Pospolity"
+          alt="Ялина Звичайна"
           class="tree-image"
           loading="lazy"
         />
-        <ol class="tree-steps">
-          <li>Wybierz świerk o regularnym kształcie</li>
-          <li>Sprawdź świeżość igieł</li>
-          <li>Przygotuj stabilną podstawę</li>
-          <li>Regularnie podlewaj</li>
-        </ol>
+        <p class="tree-description">
+          Ялина звичайна — це класичний вибір для різдвяної ялинки. Має гарну
+          конусоподібну форму та густі, короткі хвоїнки темно-зеленого кольору.
+          Характеризується інтенсивним, смолистим ароматом, який наповнює весь
+          будинок святковою атмосферою. Добре тримає хвою за належного догляду
+          та ідеально підходить для прикрас завдяки міцним гілкам.
+        </p>
       </div>
 
       <div class="tree-card">
-        <h2>Jodła Kaukaska</h2>
+        <h2>Ялиця Звичайна</h2>
         <img
           src="https://images.unsplash.com/photo-1544561841-0e5436694f8f"
-          alt="Jodła Kaukaska"
+          alt="Ялиця Звичайна"
           class="tree-image"
           loading="lazy"
         />
-        <ol class="tree-steps">
-          <li>Wybierz drzewko o intensywnie zielonym kolorze</li>
-          <li>Sprawdź symetrię gałęzi</li>
-          <li>Zabezpiecz podczas transportu</li>
-          <li>Umieść w chłodnym miejscu</li>
-        </ol>
+        <p class="tree-description">
+          Ялиця звичайна — це благородне деревце виняткової краси, що походить з
+          європейських лісів. Її темно-зелені хвоїнки м'які та пласко
+          розташовані, а знизу мають характерні сріблясті смужки. Виділяє
+          тонкий, бальзамічний аромат і дуже довго зберігає свіжість. Цінується
+          за симетричну форму та міцні гілки, які чудово витримують навіть важкі
+          прикраси.
+        </p>
       </div>
 
       <div class="tree-card">
-        <h2>Sosna Zwyczajna</h2>
+        <h2>Сосна Звичайна</h2>
         <img
           src="https://images.unsplash.com/photo-1576487248805-cf45824bfa35"
-          alt="Sosna Zwyczajna"
+          alt="Сосна Звичайна"
           class="tree-image"
           loading="lazy"
         />
-        <ol class="tree-steps">
-          <li>Wybierz drzewko o długich igłach</li>
-          <li>Sprawdź elastyczność gałęzi</li>
-          <li>Przytnij pień pod kątem</li>
-          <li>Zapewnij odpowiednią wilgotność</li>
-        </ol>
+        <p class="tree-description">
+          Сосна звичайна — це традиційний вибір, який цінується за свою
+          витривалість та приро��ну красу. Має характерні довгі, м'які хвоїнки
+          та приємний, смолистий аромат. Стійка до складних умов і чудово
+          почувається в опалюваних приміщеннях. Її розлогі гілки прекрасно
+          демонструють святкові прикраси.
+        </p>
       </div>
     </div>
 
     <footer>
-      Strona stworzona przez Antona V &copy;
+      Сторінку створив Антон В &copy;
       <script>
         document.write(new Date().getFullYear());
       </script>
